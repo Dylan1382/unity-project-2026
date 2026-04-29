@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 9081626000153736219}
   - component: {fileID: 9081626000153736216}
   - component: {fileID: 9081626000153736217}
-  - component: {fileID: 9081626000153736220}
   m_Layer: 8
   m_Name: Player_FPS
   m_TagString: Untagged
@@ -77,7 +76,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movement: {fileID: 9081626000153736216}
   mouseLook: {fileID: 9081626000153736217}
-  playerInteractions: {fileID: 9081626000153736220}
+  playerInteractions: {fileID: 0}
 --- !u!114 &9081626000153736216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114,28 +113,6 @@ MonoBehaviour:
   sensitivityY: 0.1
   playerCam: {fileID: 9081626001956749504}
   xClamp: 80
---- !u!114 &9081626000153736220
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9081626000153736230}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d62af7404156f014aa70a3e303eb0972, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sphereCastRadius: 0.5
-  interactableLayerIndex: 7
-  lookObject: {fileID: 0}
-  mainCamera: {fileID: 9081626001956749506}
-  pickupParent: {fileID: 9081626000456493125}
-  currentlyPickedUpObject: {fileID: 0}
-  minSpeed: 0
-  maxSpeed: 3000
-  maxDistance: 5
-  rotationSpeed: 100
 --- !u!1 &9081626000456493122
 GameObject:
   m_ObjectHideFlags: 0
