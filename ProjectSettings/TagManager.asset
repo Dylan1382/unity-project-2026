@@ -5,7 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Anchor
-  - Pickup
+  - Switch2Item
   layers:
   - Default
   - TransparentFX
@@ -13,9 +13,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
   - Interactable
+  - 
+  - 
   - 
   - 
   - 
